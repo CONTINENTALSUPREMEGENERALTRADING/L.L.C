@@ -34205,21 +34205,28 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 72px;
+  min-height: 114px;
 }
 
 .u-header .u-menu-1 {
-  margin: 20px auto;
+  margin: 7px 0 15px auto;
 }
 
 .u-header .u-nav-1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  font-weight: 700;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
+  letter-spacing: 0px;
 }
-
+@media (max-width: 1199px) {
+  .u-header .u-menu-1 {
+    width: auto;
+  }
+}
 
 
 
